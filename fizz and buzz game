@@ -1,0 +1,26 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        for (int i = 1; i <= 100; i++) {
+            System.out.println("\n");
+            if (i % 10 == 0) {
+                System.out.printf("hoob");
+            }
+            if (i %5 ==  0)
+                System.out.printf("doob");
+
+            if (i % 10 != 0 && i % 5 !=0) {
+                System.out.printf(" " + i);
+            }
+        }
+
+
+    }
+
+
+}
+//if you are using intelij idea,you won't have any problem but with vscode or any other IDE app,
+you might get some error(for 1,2,3,4 and 5th line you might need to change those codes but the 
+other code lines work for any IDE
